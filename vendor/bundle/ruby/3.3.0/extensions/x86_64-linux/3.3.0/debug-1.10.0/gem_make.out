@@ -1,0 +1,19 @@
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+/usr/share/rvm/rubies/ruby-3.3.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-1z2rml sitelibdir\=./.gem.20250101-2587583-1z2rml clean
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-1z2rml sitelibdir\=./.gem.20250101-2587583-1z2rml
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-1z2rml sitelibdir\=./.gem.20250101-2587583-1z2rml install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250101-2587583-1z2rml/debug
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-1z2rml sitelibdir\=./.gem.20250101-2587583-1z2rml clean

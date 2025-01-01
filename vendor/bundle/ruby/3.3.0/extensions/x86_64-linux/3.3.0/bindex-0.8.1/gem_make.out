@@ -1,0 +1,18 @@
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/share/rvm/rubies/ruby-3.3.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-gt5mar sitelibdir\=./.gem.20250101-2587583-gt5mar clean
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-gt5mar sitelibdir\=./.gem.20250101-2587583-gt5mar
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-gt5mar sitelibdir\=./.gem.20250101-2587583-gt5mar install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20250101-2587583-gt5mar/skiptrace/internal
+
+current directory: /home/ayush/authentication-app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250101-2587583-gt5mar sitelibdir\=./.gem.20250101-2587583-gt5mar clean

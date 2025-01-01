@@ -1,0 +1,16 @@
+*.gem
+/coverage/
+/pkg/
+/spec/reports/
+/tmp/
+
+/.yardoc/
+/_yardoc/
+/doc/
+
+/.bundle/
+
+Gemfile.lock
+
+.idea/
+*.iml
