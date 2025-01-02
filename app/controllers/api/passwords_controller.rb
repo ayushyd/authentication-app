@@ -23,6 +23,7 @@ module Api
 		end
 
 		def change_password
+		
 			if current_user&.update_with_password(change_password_params)
 				render json: {message: "Password updated successfully"}, status: :ok
 			else
@@ -37,7 +38,7 @@ module Api
 		end
 
 		def change_password_params
-			params.permit(:current_password, :password, :password_confirmation)
+			params.require(:user).permit(:current_password, :password, :password_confirmation)
 		end
 	end
 end
