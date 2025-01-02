@@ -19,8 +19,7 @@ module Api
           scopes: ''
         )
         
-        # return json containing access token and refresh token
-        # so that user won't need to call login API right after registration
+       
         render(json: {
           user: {
             id: user.id,
@@ -45,8 +44,6 @@ module Api
 
     def generate_refresh_token
       loop do
-        # generate a random token string and return it, 
-        # unless there is already another token with the same string
         token = SecureRandom.hex(32)
         break token unless Doorkeeper::AccessToken.exists?(refresh_token: token)
       end
