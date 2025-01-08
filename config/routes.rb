@@ -17,7 +17,8 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   namespace :api do
-    resources :users, only: %[create]
+    post 'create', to: "users#create"
+    get 'user_details', to: "users#user_details"
     post 'password', to: "passwords#create"
     patch 'password', to: 'passwords#update'
     patch 'change_password', to: 'passwords#change_password'

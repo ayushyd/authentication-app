@@ -2,6 +2,13 @@ module Api
   class UsersController < Api::ApplicationController
     skip_before_action :doorkeeper_authorize!, only: %i[create]
 
+    def user_details
+      if current_user.present?
+        render json: {user: current_user}, status: :ok
+      end 
+      p current_user 
+    end
+
     def create
       user = User.new(email: user_params[:email], password: user_params[:password])
 

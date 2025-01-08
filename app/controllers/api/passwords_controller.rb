@@ -1,6 +1,6 @@
 module Api
 	class PasswordsController < Api::ApplicationController
-		skip_before_action :doorkeeper_authorize!
+		before_action :doorkeeper_authorize!
 
 		def create
 			user = User.find_by(email: params[:email])

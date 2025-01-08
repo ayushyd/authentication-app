@@ -3,7 +3,6 @@ module Api
 
 		before_action :doorkeeper_authorize!
 
-
 		private
 
 		def current_user
