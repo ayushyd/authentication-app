@@ -24,6 +24,7 @@ RSpec.describe 'GET /api/user_details', type: :request do
     end
 
     it 'should failure with invalid token' do
+      headers = { 'Authorization' => "Bearer #{access_token}" }
       get '/api/user_details'
 
       expect(response).to have_http_status(:unauthorized)
